@@ -29,7 +29,7 @@ const Contact = () => {
                             <h1 class="text-4xl font-bold text-white">Get In Touch</h1>
                             <p class="text-gray-300 text-1xl">Have a project or question? Send me a message. I will reply within 12 hour</p>
                         </div>
-                        <dir className='py-20'>
+                        <dir className='lg:py-16 py-8 pl-0'>
                             <div className='flex items-center'>
                                 <MdEmail className='mr-5 text-white' />
                                 <h1 className='text-gray-300'> tanvershikder96@gmail.com</h1>
