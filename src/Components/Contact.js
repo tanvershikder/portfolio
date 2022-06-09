@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+
+        emailjs.sendForm('service_a38fp4q', 'template_0pryvg6', form.current, 'htlOKkr1CmsRUDQQQ')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+    };
+
     return (
         <div className='lg:py-12 lg:px-12' id='contact'>
             <div class="hero min-h-screen bg-indigo-900">
@@ -14,44 +31,46 @@ const Contact = () => {
                         </div>
                         <dir className='py-20'>
                             <div className='flex items-center'>
-                                <MdEmail className='mr-5 text-white'/>
+                                <MdEmail className='mr-5 text-white' />
                                 <h1 className='text-gray-300'> tanvershikder96@gmail.com</h1>
                             </div>
                             <div className='flex items-center'>
-                                <FaPhoneAlt className='mr-5 text-white'/>
+                                <FaPhoneAlt className='mr-5 text-white' />
                                 <h2 className='text-gray-300'>+08801746258879</h2>
                             </div>
-                            
+
                         </dir>
                     </div>
 
-                    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <form ref={form} onSubmit={sendEmail} class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+
                         <div class="card-body">
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Name</span>
-                                </label>
-                                <input type="text" placeholder="Name" class="input input-bordered" />
-                            </div>
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Email</span>
-                                </label>
-                                <input type="email" placeholder="Email" class="input input-bordered" />
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text">Name</span>
+                                    </label>
+                                    <input type="text" placeholder="Name" class="input input-bordered" name="to_name"/>
+                                </div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text">Email</span>
+                                    </label>
+                                    <input type="email" placeholder="Email" class="input input-bordered" name="from_name"/>
 
-                            </div>
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Message</span>
-                                </label>
-                                <textarea type="text" placeholder="Write Your Message" class="input input-bordered" />
+                                </div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text">Message</span>
+                                    </label>
+                                    <textarea type="text" placeholder="Write Your Message" class="input input-bordered" name="message"/>
 
+                                </div>
+                                <div class="form-control mt-6">
+                                    <button class="btn btn-primary">Send</button>
+                                </div>
                             </div>
-                            <div class="form-control mt-6">
-                                <button class="btn btn-primary">Send</button>
-                            </div>
-                        </div>
-                    </div>
+
+                    </form>
                 </div>
             </div>
         </div>
