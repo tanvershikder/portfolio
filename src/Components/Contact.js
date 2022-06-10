@@ -22,12 +22,12 @@ const Contact = () => {
 
     return (
         <div className='lg:py-12 lg:px-12' id='contact'>
-            <div class="hero min-h-screen bg-indigo-900">
-                <div class="hero-content flex-col lg:flex-row">
-                    <div class=" lg:text-left">
+            <div className="hero min-h-screen bg-indigo-900">
+                <div className="hero-content flex-col lg:flex-row">
+                    <div className=" lg:text-left">
                         <div>
-                            <h1 class="text-4xl font-bold text-white">Get In Touch</h1>
-                            <p class="text-gray-300 text-1xl">Have a project or question? Send me a message. I will reply within 12 hour</p>
+                            <h1 className="text-4xl font-bold text-white">Get In Touch</h1>
+                            <p className="text-gray-300 text-1xl">Have a project or question? Send me a message. I will reply within 12 hour</p>
                         </div>
                         <dir className='lg:py-16 py-8 pl-0'>
                             <div className='flex items-center'>
@@ -42,31 +42,32 @@ const Contact = () => {
                         </dir>
                     </div>
 
-                    <form ref={form} onSubmit={sendEmail} class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <form ref={form} onSubmit={sendEmail} className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                    data-aos-duration="2000">
 
-                        <div class="card-body">
-                                <div class="form-control">
-                                    <label class="label">
-                                        <span class="label-text">Name</span>
+                        <div className="card-body">
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Name</span>
                                     </label>
-                                    <input type="text" placeholder="Name" class="input input-bordered" name="to_name"/>
+                                    <input type="text" placeholder="Name" className="input input-bordered" name="to_name"/>
                                 </div>
-                                <div class="form-control">
-                                    <label class="label">
-                                        <span class="label-text">Email</span>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Email</span>
                                     </label>
-                                    <input type="email" placeholder="Email" class="input input-bordered" name="from_name"/>
-
-                                </div>
-                                <div class="form-control">
-                                    <label class="label">
-                                        <span class="label-text">Message</span>
-                                    </label>
-                                    <textarea type="text" placeholder="Write Your Message" class="input input-bordered" name="message"/>
+                                    <input type="email" placeholder="Email" className="input input-bordered" name="from_name"/>
 
                                 </div>
-                                <div class="form-control mt-6">
-                                    <button class="btn btn-primary">Send</button>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Message</span>
+                                    </label>
+                                    <textarea type="text" placeholder="Write Your Message" className="input input-bordered" name="message"/>
+
+                                </div>
+                                <div className="form-control mt-6">
+                                    <button className="btn btn-primary">Send</button>
                                 </div>
                             </div>
 

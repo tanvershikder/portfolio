@@ -1,29 +1,47 @@
 [
     {
+        "id":1,
         "name":"Ts-Car-Tools",
         "detail_1": "This is Full stack Project with React js , Node js , Tailwind css and Mongodb ",
         "detail_2": "User and Admin Control Deshbord",
         "livesite":"https://ts-car-tools.web.app/?fbclid=IwAR1kCzz3jek7uDMiCrmlRgS99hTyUAcdVmSituTD_41paEXYO8hQkQm0OtU",
         "githublink":"https://github.com/tanvershikder/ts-car-tools-client",
-        "imageMain":"./assets/1.jpg"
+        "imageMain":"./assets/1.jpg",
+        "detail_3":"As a User You can buy car Repair Tools and give order",
+        "details_4":"As a User you can cencel and pay for your orders and Give Review",
+        "details_5":" As a Admin You can Controll This Website",
+        "details_6":"Your can post tools , manage Tools , manage User etc",
+        "technology" : "React js , Node js , Mongodb , Express , Tailwind Css , Stripe payment , Firebase Authentication and etc"
+
 
     },
     {
+        "id":2,
         "name":"Ts-Mackbook-Storage",
         "detail_1": "This is Full stack Mackbook Storage project with react js ,node js and Mongodb ",
         "detail_2": "User can post her/his Products and give delivary",
         "livesite":"https://ts-mackbook.web.app/?fbclid=IwAR2lp8O9azavkT7Xy45Q_wFQezeg6sU7XVKf7bvLOtYMc_N1mBY8Ury60xI",
         "githublink":"https://github.com/tanvershikder/ts-macbook-client",
-        "imageMain":"./assets/2.jpg"
+        "imageMain":"./assets/2.jpg",
+        "detail_3":"As a User you can Post your Mackbook ",
+        "details_4": "As a User You can Give delivary Your Product",
+        "details_5": " You can get User Review and post User Review",
+        "technology":"React js , Node js , Mongodb , Express , Boostrap css , vanila css , Firebase Authentication and etc"
 
     },
     {
+        "id":3,
         "name":"Dr. NewYash Appointment",
         "detail_1": "This is Front end project with react js , Boostrap , React Router and Firebase",
         "detail_2": "",
         "livesite":"https://dr-newyas-appointment-servoce.web.app/",
         "githublink":"https://github.com/tanvershikder/dr-newyas-appointment",
-        "imageMain":"./assets/3.jpg"
+        "imageMain":"./assets/3.jpg",
+        "detail_3":"As a User you can know about Doctor NewYas",
+        "details_4": "As a User You can get appointment of dr. NewYas",
+        "details_5": " You can get a appointment serial from this website",
+        "technology":"React js ,React Router , Recat Firebase Hooks , Boostrap css , vanila css , Firebase Authentication and etc"
+
 
     }
 

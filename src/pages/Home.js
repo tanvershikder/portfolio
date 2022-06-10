@@ -29,7 +29,9 @@ const Home = () => {
                     I am a Full stack Developer with React js , Node js, Express and MongoDB and Frontend specalist
                     </p>
                     <p className='flex justify-center items-center text-1xl text-gray-300'>Checkout my work below and feel free to get in touch</p>
-                    <div className='flex justify-center items-center mt-5'>
+                    <div className='flex justify-center items-center mt-5' data-aos="fade-up" data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="1000">
 
                         <a className='btn mr-5 bg-blue-600 rounded-none lg:w-48 w-40'> <GrProjects className='mr-2 text-1xl border-0' /> Projects</a>
 

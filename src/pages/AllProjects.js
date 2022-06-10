@@ -18,17 +18,18 @@ const AllProjects = () => {
     return (
         <div>
             {
-                data?.map((details, index) => <div class="hero bg-base-200 p-12 shadow my-10" key={index}>
-                    <div class="hero-content flex-col lg:flex-row-reverse  ">
+                data?.map((details, index) => <div className="hero bg-base-200 p-12 shadow my-10" key={index} data-aos="fade-up" data-aos-anchor="#example-anchor"
+                data-aos-duration="2000">
+                    <div className="hero-content flex-col lg:flex-row-reverse  ">
                         <img src={details.imageMain} className='w-96 border-solid border-2 border-indigo-600' />
                         <div>
-                            <h1 class="text-3xl font-bold">{details.name}</h1>
-                            <p class="py-6">{details.detail_1} <br />
+                            <h1 className="text-3xl font-bold">{details.name}</h1>
+                            <p className="py-6">{details.detail_1} <br />
                                 {details.detail_2}</p>
-                            <a href={details.livesite} class="btn bg-cyan-900 px-6 mr-5 mb-5" target="_blank">Live <BsBoxArrowInUpRight className='ml-2 text-2xl' /></a>
-                            <a href={details.githublink} class="btn bg-blue-900 px-6 mr-5" target="_blank">Github <FaGithub className='ml-2 text-2xl' /></a>
+                            <a href={details.livesite} className="btn bg-cyan-900 px-6 mr-5 mb-5" target="_blank">Live <BsBoxArrowInUpRight className='ml-2 text-2xl' /></a>
+                            <a href={details.githublink} className="btn bg-blue-900 px-6 mr-5" target="_blank">Github <FaGithub className='ml-2 text-2xl' /></a>
 
-                            <Link to='' class="btn px-6 mr-5" target="_blank">Details <BiDetail className='ml-2 text-2xl' /></Link>
+                            <Link to={`/${details.id}`} className="btn px-6 mr-5">Details <BiDetail className='ml-2 text-2xl' /></Link>
 
                         </div>
                     </div>
