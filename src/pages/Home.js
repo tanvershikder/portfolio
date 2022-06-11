@@ -11,7 +11,7 @@ import TypeAnimation from 'react-type-animation';
 const Home = () => {
     return (
         <div>
-            <section className='h-96 bg-indigo-900 items-center'>
+            <section className='h-96 bg-indigo-900 items-center mb-5'>
                 <div className='py-24'>
                         <TypeAnimation
                         className='text-3xl text-white flex justify-center items-center mb-3'
@@ -28,8 +28,8 @@ const Home = () => {
                     <p className='flex justify-center text-justify lg:items-center text-2xl text-gray-300 mb-2 px-2 lg:px-0'>
                     I am a Full stack Developer with React js , Node js, Express and MongoDB and Frontend specalist
                     </p>
-                    <p className='flex justify-center  lg:items-center text-1xl text-gray-300'>Checkout my work below and feel free to get in touch</p>
-                    <div className='flex justify-center items-center mt-5' data-aos="fade-up" data-aos-anchor="#example-anchor"
+                    <p className='flex justify-center lg:items-center text-1xl text-gray-300'>Checkout my work below and feel free to get in touch</p>
+                    <div className='flex justify-center items-center mt-2' data-aos="fade-up" data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
                     data-aos-duration="1000">
 

@@ -13,6 +13,7 @@ import Blogs from './pages/Blogs';
 
 
 function App() {
+ 
   return (
     <div className='bg-slate-200'>
       <Navbar></Navbar>

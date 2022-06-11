@@ -19,13 +19,15 @@ const Projects = () => {
 
     return (
         <div className='lg:px-12 lg:mt-8'>
-            <h1 className="text-2xl">Projects</h1>
-            <hr className='w-12 bg-blue-600 h-1 rounded' />
+            <div>
+                <h1 className="text-2xl">Projects</h1>
+                <hr className='w-12 bg-blue-600 h-1 rounded' />
+            </div>
 
 
             <div className=''>
                 {
-                    data?.map((details, index) => <div className="hero bg-base-200 p-12 shadow my-10" key={index} data-aos="fade-up" data-aos-anchor="#example-anchor"
+                    data?.map((details, index) => <div className="hero bg-base-200 p-12 shadow " key={index} data-aos="fade-up" data-aos-anchor="#example-anchor"
                         data-aos-duration="2000">
                         <div className="hero-content flex-col lg:flex-row-reverse  ">
                             <img src={details.imageMain} className='w-96 border-solid border-2 border-indigo-600' />
