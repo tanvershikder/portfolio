@@ -8,6 +8,7 @@ import Projects from './Components/Projects';
 import AllProjects from './pages/AllProjects';
 import About from './pages/About';
 import DetailsProject from './Components/DetailsProject';
+import Blogs from './pages/Blogs';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/project' element={<Projects></Projects>}></Route>
         <Route path='/allproject' element={<AllProjects></AllProjects>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/:projecttId' element={<DetailsProject></DetailsProject>}></Route>
       </Routes>
 
