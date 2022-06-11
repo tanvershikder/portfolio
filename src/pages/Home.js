@@ -15,20 +15,20 @@ const Home = () => {
                 <div className='py-24'>
                         <TypeAnimation
                         className='text-3xl text-white flex justify-center items-center mb-3'
-                            cursor={false}
+                            cursor={true}
                             sequence={[
                                 "Hi, I'M Tanver",
                                 4000,
-                                "Hi, I'M Sikdar",
+                                "Hi, I'M a Developer",
                                 4000,
                             ]}
                             wrapper="h2"
                             repeat={Infinity}
                         />
-                    <p className='flex justify-center items-center text-2xl text-gray-300 mb-2'>
+                    <p className='flex justify-center text-justify lg:items-center text-2xl text-gray-300 mb-2 px-2 lg:px-0'>
                     I am a Full stack Developer with React js , Node js, Express and MongoDB and Frontend specalist
                     </p>
-                    <p className='flex justify-center items-center text-1xl text-gray-300'>Checkout my work below and feel free to get in touch</p>
+                    <p className='flex justify-center  lg:items-center text-1xl text-gray-300'>Checkout my work below and feel free to get in touch</p>
                     <div className='flex justify-center items-center mt-5' data-aos="fade-up" data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
                     data-aos-duration="1000">

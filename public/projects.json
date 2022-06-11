@@ -11,7 +11,10 @@
         "details_4":"As a User you can cencel and pay for your orders and Give Review",
         "details_5":" As a Admin You can Controll This Website",
         "details_6":"Your can post tools , manage Tools , manage User etc",
-        "technology" : "React js , Node js , Mongodb , Express , Tailwind Css , Stripe payment , Firebase Authentication and etc"
+        "technology" : "React js , Node js , Mongodb , Express , Tailwind Css , Stripe payment , Firebase Authentication and etc",
+        "image2":"./assets/4.jpg",
+        "image3":"./assets/5.jpg",
+        "image4":"./assets/6.jpg"
 
 
     },
@@ -26,7 +29,10 @@
         "detail_3":"As a User you can Post your Mackbook ",
         "details_4": "As a User You can Give delivary Your Product",
         "details_5": " You can get User Review and post User Review",
-        "technology":"React js , Node js , Mongodb , Express , Boostrap css , vanila css , Firebase Authentication and etc"
+        "technology":"React js , Node js , Mongodb , Express , Boostrap css , vanila css , Firebase Authentication and etc",
+        "image2":"./assets/7.jpg",
+        "image3":"./assets/8.jpg",
+        "image4":"./assets/9.jpg"
 
     },
     {
@@ -40,7 +46,10 @@
         "detail_3":"As a User you can know about Doctor NewYas",
         "details_4": "As a User You can get appointment of dr. NewYas",
         "details_5": " You can get a appointment serial from this website",
-        "technology":"React js ,React Router , Recat Firebase Hooks , Boostrap css , vanila css , Firebase Authentication and etc"
+        "technology":"React js ,React Router , Recat Firebase Hooks , Boostrap css , vanila css , Firebase Authentication and etc",
+        "image2":"./assets/10.jpg",
+        "image3":"./assets/3.jpg",
+        "image4":"./assets/11.jpg"
 
 
     }
