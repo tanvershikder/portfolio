@@ -6,6 +6,7 @@ import resume from '../assets/final resume.pdf'
 import Projects from '../Components/Projects';
 import Contact from '../Components/Contact';
 import TypeAnimation from 'react-type-animation';
+import Skills from '../Components/Skills';
 
 
 const Home = () => {
@@ -40,7 +41,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
+            <Skills></Skills>
             <Projects></Projects>
             <Contact></Contact>
 
