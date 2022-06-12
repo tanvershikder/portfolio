@@ -1,7 +1,11 @@
 import React, { useRef } from 'react';
 import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
+import { AiOutlineGithub } from "@react-icons/all-files/ai/AiOutlineGithub";
+import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin";
+import { FaFacebook } from "@react-icons/all-files/fa/FaFacebook";
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
 
@@ -29,7 +33,7 @@ const Contact = () => {
                             <h1 className="text-4xl font-bold text-white">Get In Touch</h1>
                             <p className="text-gray-300 text-1xl">Have a project or question? Send me a message. I will reply within 12 hour</p>
                         </div>
-                        <dir className='lg:py-16 py-8 pl-0'>
+                        <div className='lg:py-16 py-8 pl-0'>
                             <div className='flex items-center'>
                                 <MdEmail className='mr-5 text-white' />
                                 <h1 className='text-gray-300'> tanvershikder96@gmail.com</h1>
@@ -39,7 +43,16 @@ const Contact = () => {
                                 <h2 className='text-gray-300'>+08801746258879</h2>
                             </div>
 
-                        </dir>
+                        </div>
+                        <div className=' py-8 pl-0'>
+                            <div className='flex'>
+                                <a href='https://github.com/tanvershikder/' target="_blank" className=''><AiOutlineGithub className='text-3xl mr-3 lg:mr-5 text-white hover:bg-yellow-500 rounded-full'/></a>
+                                <a href='https://www.linkedin.com/in/tanver-sikdar-82369b240/' target="_blank"><AiFillLinkedin className='text-3xl mr-3 lg:mr-5 text-white hover:bg-blue-500'/></a>
+                                <a href='https://www.facebook.com/tanver.shikder.7/' target="_blank"><FaFacebook className='text-3xl mr-3 text-white hover:bg-blue-700 rounded-full lg:mr-5'/></a>
+
+                            </div>
+
+                        </div>
                     </div>
 
                     <form ref={form} onSubmit={sendEmail} className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100" data-aos="fade-left" data-aos-anchor="#example-anchor"

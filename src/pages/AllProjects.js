@@ -18,10 +18,10 @@ const AllProjects = () => {
     return (
         <div>
             {
-                data?.map((details, index) => <div className="hero bg-base-200 p-12 shadow my-10" key={index} data-aos="fade-up" data-aos-anchor="#example-anchor"
+                data?.map((details, index) => <div className="hero bg-base-200 lg:p-12 shadow my-10" key={index} data-aos="fade-up" data-aos-anchor="#example-anchor"
                 data-aos-duration="2000">
                     <div className="hero-content flex-col lg:flex-row-reverse  ">
-                        <img src={details.imageMain} className='w-96 border-solid border-2 border-indigo-600' />
+                        <img src={details.imageMain} className='lg:w-96 w-screen border-solid border-2 border-indigo-600' />
                         <div>
                             <h1 className="text-3xl font-bold">{details.name}</h1>
                             <p className="py-6">{details.detail_1} <br />

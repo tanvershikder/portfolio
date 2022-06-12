@@ -5,7 +5,7 @@ import { FaSchool } from "@react-icons/all-files/fa/FaSchool";
 const About = () => {
     return (
         <div className='bg-indigo-900'>
-            <div className="hero h-96">
+            <div className="hero lg:h-96">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="https://scontent.fdac7-1.fna.fbcdn.net/v/t39.30808-6/277171106_1712157049197866_5998410030193692133_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHvYqmOxTHALXbBX-AFmfS_b6RjnMngZdNvpGOcyeBl0_lC7lCL4tKWZXRRR_i93FY9U1ECyB4Ov_Tf5NG6G9_5&_nc_ohc=ToPYtWR6LIwAX_9E_Du&_nc_ht=scontent.fdac7-1.fna&oh=00_AT94u31M0NTB-5bLpKOj0ns68n7I0E5VwjCpwfWwSPuwLA&oe=62A6D769" className="w-48 rounded-lg shadow-2xl" />
                     <div>

@@ -34,7 +34,7 @@ const Home = () => {
                     data-aos-offset="500"
                     data-aos-duration="1000">
 
-                        <a className='btn mr-5 bg-blue-600 rounded-none lg:w-48 w-40'> <GrProjects className='mr-2 text-1xl border-0' /> Projects</a>
+                        <Link to='/allproject' className='btn mr-5 bg-blue-600 rounded-none lg:w-48 w-40'> <GrProjects className='mr-2 text-1xl border-0' /> Projects</Link>
 
                         <a className='btn bg-blue-700 lg:w-48 w-40 rounded-none border-0' href='https://drive.google.com/file/d/1vBaLfro6UlT-kT5ktlSijLc1MsH3qxyJ/view?usp=sharing' target="_blank" download><AiOutlineFilePdf className='mr-2 text-2xl' /> Resume</a>
 
