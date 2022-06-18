@@ -27,7 +27,7 @@ const Projects = () => {
 
             <div className=''>
                 {
-                    data?.map((details, index) => <div className="hero bg-base-200 lg:p-12 shadow " key={index} data-aos="fade-up" data-aos-anchor="#example-anchor"
+                    data?.map((details, index) => <div className="hero bg-base-200 lg:p-12 shadow my-5" key={index} data-aos="fade-up" data-aos-anchor="#example-anchor"
                         data-aos-duration="2000">
                         <div className="hero-content flex-col lg:flex-row-reverse  ">
                             <img src={details.imageMain} className='lg:w-96 w-screen  border-solid border-2 border-indigo-600' />
